@@ -241,7 +241,7 @@ h2{
 }
 .prsnt_abtme_body {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 20px;
 }
 .prsnt_abtme_body .abtme_cont{
@@ -300,3 +300,14 @@ h2{
     text-align: left;
     color: var(--white);
 }
+
+
+/* Responsive*/
+@media screen and (max-width: 790px) {
+    .manue ul {
+        gap: 1px;
+    }
+    .manue ul li a {
+        padding: 5px 5px;
+    }
+  }
