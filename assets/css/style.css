@@ -239,13 +239,10 @@ h2{
     margin-left: 20px;
     margin-top: 11px;
 }
-.prsnt_abtme_body{
-    display: flex;
-    gap: 10px;
-}
-.prsnt_abtme_body .abtme_img img{
-    width: 150px;
-    height: 200px;
+.prsnt_abtme_body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 20px;
 }
 .prsnt_abtme_body .abtme_cont{
     padding-right: 10px;
@@ -266,6 +263,9 @@ h2{
 }
 .srvic_list_desc h4{
     color: var(--black);
+}
+.srvic_list_desc p {
+    text-align: left;
 }
 .footer{
     padding-top: 20px;
